@@ -1,0 +1,17 @@
+{
+  "name": "isthischinese",
+  "version": "1.0.9",
+  "description": "a package for you to detect if some word is Chinese.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kenny Ng",
+  "license": "ISC",
+  "type": "module",
+  "keywords": [
+    "chinese",
+    "joke",
+    "meme"
+  ]
+}
