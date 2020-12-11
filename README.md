@@ -1,9 +1,11 @@
 # ischinese
-ischinese is an utility package for you to know if some word is Chinese
+ischinese is an npm package for you to know if a string (a series of words) is Chinese.
 
 # Setup
-1.　run <npm i isthischinese> in your terminal after <npm init>.
-2.　in your javascript file, put <var chinese = require("isthischinese");>
+1.　Run <npm i isthischinese> in your terminal after <npm init>.<br/>
+2.　Put this at the top in your javascript file,  <br/>
+```var chinese = require("isthischinese");```
+
 
 # Usage 
 You can test if a string contains Chinese like this:
@@ -17,5 +19,5 @@ console.log(chinese.isChinese("string"));
 //console prints "yes it is chinese.これは中国語です。"
 ```
 # contact
-made by Kenny Ng, who knows Chinese.
-if you have any question, contact me at contact@kennyng.dev.
+made by Kenny Ng, who knows Chinese. <br/>
+if you have any question(only coding ones please), </br> contact me at <a>contact@kennyng.dev.</a>
