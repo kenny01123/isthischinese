@@ -9,7 +9,7 @@
     "pre-commit": "pretty-quick --staged --no-restage",
     "pre-push": "npm run test",
     "prepublishOnly": "pinst --disable",
-    "postinstall": "husky install",
+    "postinstall": "npm i husky",
     "postpublish": "pinst --enable",
     "preversion": "npm test",
     "postversion": "git push origin --tags --no-verify"
