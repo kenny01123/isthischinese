@@ -1,5 +1,5 @@
 # ischinese
-ischinese is an npm package for you to know if a string (a series of words) is Chinese.
+Hi! ischinese is an npm package for you to know if a string (a series of words) is Chinese.
 
 # Setup
 1.　Run <npm i isthischinese> in your terminal after <npm init>.<br/>
