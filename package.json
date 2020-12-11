@@ -6,9 +6,13 @@
   "private": false,
   "scripts": {
     "test": "mocha",
-    "postinstall": "husky install",
+    "pre-commit": "pretty-quick --staged --no-restage",
+    "pre-push": "npm run test",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable",
+    "preversion": "npm test",
+    "postversion": "git push origin --tags --no-verify"
   },
   "author": "Kenny Ng",
   "license": "ISC",
@@ -26,5 +30,8 @@
     "chai": "^4.2.0",
     "husky": "^4.3.5",
     "pinst": "^2.1.1"
+  },
+  "dependencies": {
+    "pretty-quick": "^3.1.0"
   }
 }
