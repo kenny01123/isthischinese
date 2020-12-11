@@ -17,8 +17,10 @@
     "joke",
     "meme"
   ],
-  "hooks": {
-    "pre-commit": "npm test"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
   },
   "devDependencies": {
     "chai": "^4.2.0",
