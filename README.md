@@ -20,4 +20,4 @@ console.log(chinese.isChinese("string"));
 ```
 # contact
 made by Kenny Ng, who knows Chinese. <br/>
-if you have any question(only coding ones please), </br> contact me at <a>contact@kennyng.dev.</a>
+if you have any question(only coding ones please), </br> contact me at <a>contact@kennyng.dev.</a> Thank you.
